@@ -13,6 +13,8 @@
 		BA749EE3230AB928006CA30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA749EE2230AB928006CA30C /* Assets.xcassets */; };
 		BA749EE6230AB928006CA30C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA749EE4230AB928006CA30C /* LaunchScreen.storyboard */; };
 		BA749EEE230ABA69006CA30C /* AppStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA749EED230ABA69006CA30C /* AppStoreVC.swift */; };
+		BA749EF0230AC9C5006CA30C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA749EEF230AC9C5006CA30C /* LoginViewController.swift */; };
+		BA749EF2230ACC0F006CA30C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA749EF1230ACC0F006CA30C /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BA749EE5230AB928006CA30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA749EE7230AB928006CA30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA749EED230ABA69006CA30C /* AppStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreVC.swift; sourceTree = "<group>"; };
+		BA749EEF230AC9C5006CA30C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA749EF1230ACC0F006CA30C /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BA749EE4230AB928006CA30C /* LaunchScreen.storyboard */,
 				BA749EE7230AB928006CA30C /* Info.plist */,
 				BA749EED230ABA69006CA30C /* AppStoreVC.swift */,
+				BA749EEF230AC9C5006CA30C /* LoginViewController.swift */,
+				BA749EF1230ACC0F006CA30C /* MainNavigationController.swift */,
 			);
 			path = NavigationViewController;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA749EF2230ACC0F006CA30C /* MainNavigationController.swift in Sources */,
+				BA749EF0230AC9C5006CA30C /* LoginViewController.swift in Sources */,
 				BA749EDE230AB926006CA30C /* ViewController.swift in Sources */,
 				BA749EDC230AB926006CA30C /* AppDelegate.swift in Sources */,
 				BA749EEE230ABA69006CA30C /* AppStoreVC.swift in Sources */,
